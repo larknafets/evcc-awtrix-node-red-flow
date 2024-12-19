@@ -104,6 +104,10 @@ Download all icons used by the flow to your AWTRIX device by going to the IP add
 
 Now all apps will have an icon.
 
+### Set your AWTRIX settings
+
+You can set device settings in "config" node and also deaktivate standard AWTRIX apps.
+
 ## Flow modifications and updates
 
 Feel free to change the imported flow to your own needs. You may want to add a 2nd loadpoint. You may also change the icons. Check the "Readme.1st" node for further information. - Enjoy it. :-)
@@ -121,6 +125,13 @@ In case I update the flow due to calculation changes or fixing bugs, you need to
 - As the MQTT broker is the service in between, everything relies on MQTT. If there is no new data pushed from other systems (in this case evcc) to MQTT, the device will not show the information anymore after a few times because Node-RED will only pull new data. - This can be fixed with an "inject" node which triggers to push the app data again to MQTT for the AWTRIX device. See "vehicleSoc" for reference.
 
 ## Changelog
+
+#### 2024-12-19
+
+- Change "vars" node to "config" node
+- Add more parameters to config node
+- Move all AWTRIX settings to config node
+- Add %-bar/battery soc to battery power app
 
 #### 2024-10-30
 
