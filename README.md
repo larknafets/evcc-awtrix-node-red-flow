@@ -100,7 +100,10 @@ mqtt:
 
 ### Download icons to the AWTRIX device
 
-Download all icons used by the flow to your AWTRIX device by going to the IP address of the device and choose "Icons" in menu. Download all icons by using the icon ID. You can find all icon IDs in the "Readme.1st" node of the already imported flow.
+Download all icons used by the flow to your AWTRIX device by going to the IP address of the device and choose "Icons" in menu. Download all icons by pasting only the icon ID in the field. You can find all icon IDs in the "Readme.1st" node of the already imported flow.
+
+Please refer to the following page for downloading icons to the device:
+https://blueforcer.github.io/awtrix3/#/icons
 
 Now all apps will have an icon.
 
