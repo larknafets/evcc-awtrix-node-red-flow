@@ -129,6 +129,10 @@ In case I update the flow due to calculation changes or fixing bugs, you need to
 
 ## Changelog
 
+#### 2025-03-25
+
+- Fix "awtrix settings" node (#3)
+
 #### 2024-12-19
 
 - Change "vars" node to "config" node
